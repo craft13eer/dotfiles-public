@@ -15,3 +15,18 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh" # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+
+### colorls config
+source $(dirname $(gem which colorls))/tab_complete.sh
+alias ll='colorls -l'
+alias ls='colorls -a'
+alias lc='colorls --gs -l --sd -t'
+alias lca='colorls --gs -l -A --sd -t'
+alias lcd='colorls --gs -l -d --sd -t'
+alias lcf='colorls --gs -l -f --sd -t'
+
+function lct() {
+  [[ -n "$1" ]] && depth=$1 || depth=1
+  [[ -n "$2" ]] && dir=$2 || dir="."
+  colorls ${dir} -l --tree=${depth} --sd --sf
+}
