@@ -5,5 +5,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 # source ~/.bash_profile
 # alias ls='ls $LS_OPTIONS'
 
-gem install colorls
 cp ~/dotfiles-public/.zshrc ~/
+cp ~/dotfiles-public/git/.gitconfig ~/
+
+gem install colorls

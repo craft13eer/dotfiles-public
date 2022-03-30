@@ -1,0 +1,7 @@
+[user]
+	email = craft13eer@gmail.com
+	name = craft13eer
+
+[alias]
+	lg = log --graph --date=short --pretty=format:'%Cred%h%Creset %ad %s %C(yellow)%d%Creset %C(bold blue)<%an>%Creset'
+    hist = log --graph --full-history --all --date=short --pretty=format:'%Cred%h%Creset %ad %s %C(yellow)%d%Creset %C(bold blue)<%an>%Creset'
