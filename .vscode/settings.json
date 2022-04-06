@@ -1,0 +1,53 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.endOfLine": "auto",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": true
+  },
+  "explorer.confirmDelete": false,
+  "eslint.enable": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "workbench.settings.useSplitJSON": true,
+  "workbench.colorTheme": "Atom One Dark",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.localEchoStyle": "dim",
+  "python.condaPath": "/usr/local/bin/python",
+  "python.defaultInterpreterPath": "/usr/local/bin/python",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "breadcrumbs.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "liveServer.settings.ChromeDebuggingAttachment": false
+}
